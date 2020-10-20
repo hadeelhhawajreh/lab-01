@@ -1,4 +1,6 @@
-
+@import'laptoplayout.css';
+@import'phone-layout.css';
+@import'base.css';
 @media(max-width: 960px){
  
     body{
