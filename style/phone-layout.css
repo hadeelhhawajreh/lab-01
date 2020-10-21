@@ -2,30 +2,37 @@ div{
     font-size: 20px;
     width: 32%;
     float: left;
-    border: 1px solid black;
+    border: 1px solid white;
     text-align: center;
     padding: 25px;
     box-sizing: border-box;
 }
+
 @media (min-width :0px  ) and (max-width:650px ){
-    div{
-        float: none;
+    .container{
+        display: flex;
+        /* flex-wrap: wrap; */
         width: 100%;
+    }
+    .container ~div{
+        flex-grow: 1;
     }
     div#a{
         background-color: lightpink;
         height: 75px;
+        width: 650px;
     }
     div#b{
         height: 150px;
         background-color: rgb(173, 156, 156);
-        
+        width: 650px;
+
     }
     div#c,div#d{
         height: 125px;
         background-color: lightblue;
         border-collapse: collapse;
-        
+        width: 325px;
         
     }
     div#d{
@@ -37,19 +44,19 @@ div{
         background-color: lightcyan;
         display: flexbox;
         float: left;
-    width: 50%;
+    width:325px;
     height: 250px;
     line-height: 250px;
     }
 
     div#g ,div#f{
      float: left;
-     width: 50%;
+     width: 325px;
      height: 250px;
      background-color: lightsalmon;
     }
     div#i{
-        width: 500px;
+        width: 650px;
         height: 50px;
         background-color: rgb(163, 219, 163);
     }
