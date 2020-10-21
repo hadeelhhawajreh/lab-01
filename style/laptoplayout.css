@@ -1,10 +1,16 @@
 
 @media(min-width: 768px){
 
-    div{
-        border: 1px solid black;
+    .container{
+        /* border: 1px solid black; */
         box-sizing: border-box;
         text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 500px;
+    }
+    .container ~div{
+        flex-grow: 5;
     }
 
     div#a{
@@ -50,40 +56,40 @@
     }
     div#f{
         
-        float: left;
+          float: left;
         width: 19.7916%;
         height: 250px;
         line-height: 250px;
         border-collapse: collapse;
         background-color:rgb(120, 112, 163);
-        
+         
     
     }
     
     div#g{
-        
+
         float: left;
         width: 19.7916%;
         height: 250px;
         line-height: 250px;
         border-collapse: collapse;
-        background-color: rgb(216, 128, 219);
+        background-color: rgb(216, 128, 219); 
        
     }
     div#h{
       
-        height: 250px;
+         height: 250px;
         float: left;
         width: 19.7916%;
         line-height: 250px;
         border-collapse: collapse;
-        background-color: rgb(142, 206, 180);
+        background-color: rgb(142, 206, 180); 
     
        
     }
     
     div#i{
-        display: inline-block;
+         display: inline-block;
     width: 79.1666%;   
      height: 150px;
        line-height: 80px;
