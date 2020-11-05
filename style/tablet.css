@@ -1,0 +1,151 @@
+
+
+@media(min-width: 481px) and (max-width: 766px) {
+
+
+    *{
+        text-align: center;
+        border: 1px solid #0f0f0f;
+
+    }
+
+
+    #a{ grid-area: a; }
+    #b { grid-area: b; }
+    #c { grid-area: C; }
+    #d { grid-area: D; }
+    #e { grid-area: e; }
+    #f { grid-area: f; }
+    #g { grid-area: g; }
+    #h { grid-area: h; }
+    #i { grid-area: i; }
+    
+    .container {
+      display: grid;
+      grid-template-areas:
+        'a a a a a '
+        'b C C  D D'
+        'b e f g h'
+        'b i i i i ';
+      
+    }
+    
+    .container > div {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgb(68, 66, 66);
+
+      text-align: center;
+      box-sizing:border-box;
+      font-size: 30px;
+    }
+
+
+
+
+
+ 
+    #a{
+        width: 100%;
+        height: 100px;
+        line-height: 75px;
+        box-sizing: border-box;    
+           border: 1px solid rgb(68, 66, 66);
+
+        background-color: rgb(218, 218, 201);
+    
+    } 
+    #b{
+        
+        
+        height: 600px;
+       line-height: 600px;
+       box-sizing: border-box;
+       border: 1px solid rgb(68, 66, 66);
+
+       background-color:lightgrey;
+    }
+    #c{
+        
+        
+        height: 200px;
+       line-height: 200px;
+       box-sizing: border-box;
+       border: 1px solid rgb(68, 66, 66);
+
+       background-color:lightpink;
+    }
+    #d{
+        
+        
+        height: 200px;
+       line-height: 200px;
+       box-sizing: border-box;
+       border: 1px solid rgb(68, 66, 66);
+
+       background-color:linen;
+    }
+    
+    
+    #e{
+         
+        
+       
+        height: 250px;
+        line-height: 250px;
+        border-collapse: collapse;
+        box-sizing: border-box;
+        background-color:lightblue;
+        border: 1px solid rgb(68, 66, 66);
+
+    
+    }
+    #f{
+        
+       
+       
+        height: 250px;
+        line-height: 250px;
+        box-sizing: border-box;
+        border-collapse: collapse;
+        background-color:lightcyan;
+        border: 1px solid rgb(68, 66, 66);
+
+    
+    }
+    
+    #g{
+        
+      
+      
+        height: 250px;
+        line-height: 250px;
+        box-sizing: border-box;
+        border-collapse: collapse;
+        background-color: beige;
+        border: 1px solid rgb(68, 66, 66);
+
+    }
+    #h{
+      
+        height: 250px;
+        line-height: 250px;
+        box-sizing: border-box;
+        border-collapse: collapse;
+        background-color: lightseagreen;
+        border: 1px solid rgb(68, 66, 66);
+
+       
+    }
+    
+    #i{
+        display: inline-block;
+        width: 100%;
+        height: 150px;
+       line-height: 80px;
+       box-sizing: border-box;
+       border-collapse: collapse;
+       background-color:lightsalmon;
+       border: 1px solid rgb(68, 66, 66);
+
+    }
+}

@@ -1,6 +1,4 @@
-@import'laptoplayout.css';
-@import'phone-layout.css';
-@import'base.css';
+
 @media(max-width: 960px){
  
     body{
@@ -14,10 +12,8 @@
    
    @media(min-width: 961px){
    body{
-       width: 3000px;
-       margin-left: 20%;
-       margin-right: 20%;
+       width: 960px;
+       margin-left: auto;
+       margin-right: auto;
    }
-   
-   
    }
